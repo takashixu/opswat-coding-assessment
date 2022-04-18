@@ -173,7 +173,7 @@ def print_output(filename, response_data):
 
     #Prints the name of the file and overall status
     print("filename: {file_name}".format(file_name=filename))
-    print("overall status: {status}".format(status=overall_status if overall_status != "No Threat Detected" else "Clean"))
+    print("overall_status: {status}".format(status=overall_status if overall_status != "No Threat Detected" else "Clean"))
 
     #Prints information from each of different engines
     for result in scans:
